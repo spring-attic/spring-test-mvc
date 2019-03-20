@@ -42,21 +42,21 @@ public class RequestMatchersTests {
 
 	@Test
 	public void requestTo() throws Exception {
-		this.request.setURI(new URI("http://foo.com/bar"));
+		this.request.setURI(new URI("http://www.foo.com/bar"));
 
-		RequestMatchers.requestTo("http://foo.com/bar").match(this.request);
+		RequestMatchers.requestTo("http://www.foo.com/bar").match(this.request);
 	}
 
 	@Test(expected=AssertionError.class)
 	public void requestToNoMatch() throws Exception {
-		this.request.setURI(new URI("http://foo.com/bar"));
+		this.request.setURI(new URI("http://www.foo.com/bar"));
 
-		RequestMatchers.requestTo("http://foo.com/wrong").match(this.request);
+		RequestMatchers.requestTo("http://www.foo.com/wrong").match(this.request);
 	}
 
 	@Test
 	public void requestToContains() throws Exception {
-		this.request.setURI(new URI("http://foo.com/bar"));
+		this.request.setURI(new URI("http://www.foo.com/bar"));
 
 		RequestMatchers.requestTo(containsString("bar")).match(this.request);
 	}
