@@ -325,7 +325,7 @@ public class MockHttpServletRequestBuilder implements RequestBuilder, Mergeable 
 	 * path must start with a "/" and must not end with a "/".
 	 *
 	 * @see <a
-	 * href="http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getContextPath%28%29">HttpServletRequest.getContextPath()</a>
+	 * href="https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getContextPath%28%29">HttpServletRequest.getContextPath()</a>
 	 */
 	public MockHttpServletRequestBuilder contextPath(String contextPath) {
 		if (StringUtils.hasText(contextPath)) {
@@ -350,7 +350,7 @@ public class MockHttpServletRequestBuilder implements RequestBuilder, Mergeable 
 	 * end with a "/".
 	 *
 	 * @see <a
-	 * href="http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getServletPath%28%29">HttpServletRequest.getServletPath()</a>
+	 * href="https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getServletPath%28%29">HttpServletRequest.getServletPath()</a>
 	 */
 	public MockHttpServletRequestBuilder servletPath(String servletPath) {
 		if (StringUtils.hasText(servletPath)) {
@@ -372,7 +372,7 @@ public class MockHttpServletRequestBuilder implements RequestBuilder, Mergeable 
 	 * <p>If specified, the pathInfo will be used as is.
 	 *
 	 * @see <a
-	 * href="http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getPathInfo%28%29">HttpServletRequest.getServletPath()</a>
+	 * href="https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getPathInfo%28%29">HttpServletRequest.getServletPath()</a>
 	 */
 	public MockHttpServletRequestBuilder pathInfo(String pathInfo) {
 		if (StringUtils.hasText(pathInfo)) {
