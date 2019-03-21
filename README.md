@@ -24,4 +24,4 @@ The latest snapshot can be obtained through the http://repo.springsource.org/lib
       <scope>test</scope>
     </dependency>
 
-This project is available under version 2.0 of the [Apache License](http://www.apache.org/licenses/LICENSE-2.0).
+This project is available under version 2.0 of the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
